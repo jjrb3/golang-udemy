@@ -1,3 +1,4 @@
+// Package example
 package main
 
 import (
@@ -24,5 +25,5 @@ func main() {
 
 	log.Println("log Println") // Log but not stop.
 	log.Fatalln("log Fatalln") // Log and stop with exit estatus.
-	panic("panic") // Stop completely and call the file called.
+	panic("panic")             // Stop completely and call the file called.
 }
